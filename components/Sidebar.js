@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import SidebarLink from './SidebarLink'
-import { HomeIcon, HashtagIcon, BellIcon, InboxIcon, BookmarkIcon, ClipboardListIcon, UserIcon, DotsCircleHorizontalIcon } from '@heroicons/react/solid'
+import { HomeIcon, HashtagIcon, BellIcon, InboxIcon, BookmarkIcon, ClipboardListIcon, UserIcon, DotsCircleHorizontalIcon } from '@heroicons/react/outline'
 
 function Sidebar() {
     return (
