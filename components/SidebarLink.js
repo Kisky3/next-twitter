@@ -1,10 +1,7 @@
-import React from 'react'
-
-
-function SidebarLink({ Icon, text, active }) {
+function SidebarLink({ Icon, text }) {
   return (
-    <div className={`text-[#d9d9d9] flex items-center justify-center xl:justify-start`}>
-      <Icon className="h-7"></Icon>
+    <div className={`text-[#d9d9d9] flex items-center justify-center xl:justify-start text-xl space-x-3 hoverAnimation`}>
+      <Icon className="h-7 text-white" />
       <span>{text}</span>
     </div>
   )
