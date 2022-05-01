@@ -1,7 +1,16 @@
-import React from 'react'
-import Image from 'next/image'
-import SidebarLink from './SidebarLink'
-import { HomeIcon, HashtagIcon, BellIcon, InboxIcon, BookmarkIcon, ClipboardListIcon, UserIcon, DotsCircleHorizontalIcon } from '@heroicons/react/outline'
+import React from "react";
+import Image from "next/image";
+import SidebarLink from "./SidebarLink";
+import {
+    HomeIcon,
+    HashtagIcon,
+    BellIcon,
+    InboxIcon,
+    BookmarkIcon,
+    ClipboardListIcon,
+    UserIcon,
+    DotsCircleHorizontalIcon,
+} from "@heroicons/react/outline";
 
 function Sidebar() {
     return (
@@ -18,9 +27,12 @@ function Sidebar() {
                 <SidebarLink text="Lists" Icon={ClipboardListIcon} />
                 <SidebarLink text="Profile" Icon={UserIcon} />
                 <SidebarLink text="More" Icon={DotsCircleHorizontalIcon} />
+                <button className="hidden xl:inline ml-auto bg-[#1d9bf0] text-white rounded-full w-56 h-[52px] text-lg font-bold shadow-md hover:bg-[#1a8cd8]">
+                    Tweet
+                </button>
             </div>
         </div>
-    )
+    );
 }
 
-export default Sidebar
+export default Sidebar;
